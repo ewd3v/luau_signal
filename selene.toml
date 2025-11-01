@@ -1,4 +1,4 @@
-std = "luau"
+std = "luau+std"
 exclude = ["*_packages/*", ".pesde/*", "dist*/*", "types/*"]
 
 [config]

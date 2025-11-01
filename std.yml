@@ -1,0 +1,8 @@
+lua_versions:
+  - luau
+
+globals:
+  task:
+    any: true
+  warn:
+    any: true
