@@ -12,7 +12,7 @@ lune = "^0.10.4" # Required for build script even though we're running it via `p
 
 [target]
 environment = "luau"
-lib = "src/init.luau"
+lib = "src/signal.luau"
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
