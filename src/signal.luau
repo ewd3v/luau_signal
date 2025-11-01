@@ -283,10 +283,10 @@ end
 
 local freeThread: thread?
 local function runCallback(callback, ...)
-	local acquiredFreeThread = freeThread
+	local acquiredThread = freeThread
 	freeThread = nil
 	callback(...)
-	freeThread = acquiredFreeThread
+	freeThread = acquiredThread
 end
 
 local function threadLoop()
