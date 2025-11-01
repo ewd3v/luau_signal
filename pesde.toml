@@ -1,8 +1,8 @@
-name = "ewdev/package_template"
-version = "0.2.2"
-description = "A template for pesde packages"
+name = "ewdev/signal"
+version = "0.0.0"
+description = "Cross runtime and typed signal implementation"
 authors = ["EwDev (https://ewdev.net/)"]
-repository = "https://github.com/ewd3v/pesde_package_template"
+repository = "https://github.com/ewd3v/luau_signal"
 license = "MIT"
 includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 
@@ -22,6 +22,3 @@ stylua = { name = "pesde/stylua", version = "^2.3.0", target = "lune" }
 luau-lsp = { name = "pesde/luau_lsp", version = "^1.55.0", target = "lune" }
 selene = { name = "pesde/selene", version = "^0.29.0+toolchainlib.1", target = "lune" }
 darklua = { name = "pesde/darklua", version = "^0.17.2", target = "lune" }
-
-[dependencies]
-hello = { name = "pesde/hello", version = "^1.0.2" }
