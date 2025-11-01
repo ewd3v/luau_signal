@@ -7,11 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2025-11-01
+
 - Fixed pesde.toml being incorrectly configured
 
 ## [0.1.0] - 2025-11-01
 
 - Initial release
 
-[unreleased]: https://github.com/ewd3v/luau_signal/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/ewd3v/luau_signal/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/ewd3v/luau_signal/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ewd3v/luau_signal/compare/9b5776cb6b05d506a2813e291daf19ae676295e9...v0.1.0
